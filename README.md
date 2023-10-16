@@ -1,1 +1,5 @@
-# Search-For-a-College-
+# Поиск коеджа после 9 класса
+
+- помогает школьникам определится с выбором куда пойти после 9 класса
+
+[сам сайт тут](https://gogolev-denis.github.io/Search-For-a-College-/)
