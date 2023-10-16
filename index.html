@@ -13,20 +13,6 @@
 
     <div class="container">
 
-        <div class="navigation">
-            <input type="checkbox" class="navigation__toggle" id="navin-toggle">
-            <label for="navin-toggle" class="navigation__button">
-                <span class="navigation__icon"></span>
-            </label>
-            <div class="navigation__background"></div>
-            <nav class="navigation__nav">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#2section" class="navigation__link">Главня</a></li>
-                    <li class="navigation__item"><a href="#3section" class="navigation__link">Коледжи</a></li>
-                </ul>
-            </nav>
-        </div>
-
         <header class="header">
             <img src="img/Ykt.jpeg" alt="">
             <div class="header__box">
@@ -261,20 +247,6 @@
         </main>
         
     </div>
-
-    <script>
-            function scrollTo(element, to, duration) {
-        if (duration <= 0) return;
-        var difference = to - element.scrollTop;
-        var perTick = difference / duration * 10;
-
-        setTimeout(function() {
-            element.scrollTop = element.scrollTop + perTick;
-            if (element.scrollTop === to) return;
-            scrollTo(element, to, duration - 10);
-        }, 10);
-    }
-    </script>
     
 </body>
 </html>
